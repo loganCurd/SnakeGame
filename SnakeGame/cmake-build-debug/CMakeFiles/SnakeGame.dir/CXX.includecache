@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Logan/CLionProjects/SnakeGame/include/SnakeGame.h
+chrono
+-
+string
+-
+windows.h
+-
+
+C:/Users/Logan/CLionProjects/SnakeGame/src/SnakeGame.cpp
+../include/SnakeGame.h
+C:/Users/Logan/CLionProjects/SnakeGame/include/SnakeGame.h
+
+C:/Users/Logan/CLionProjects/SnakeGame/src/main.cpp
+../include/SnakeGame.h
+C:/Users/Logan/CLionProjects/SnakeGame/include/SnakeGame.h
+
